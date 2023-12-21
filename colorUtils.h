@@ -47,3 +47,33 @@ float toGrayScaleLightness(int red, int green, int blue)
     return grey_scale_value;
 }
 
+// Defination of toGrayScaleLuminosity(); function
+
+float toGrayScaleLuminosity(int red, int green, int blue)
+{
+
+    float grey_scale_value = (0.21 * red) + (0.72 * green) + (0.07 * blue);
+
+    return grey_scale_value;
+}
+
+// Defination of toSepiaRed(); function
+
+float toSepiaRed(int red, int green, int blue)
+{
+
+    float sepia_red = (0.393 * red) + (0.769 * green) + (0.189 * blue);
+
+    return sepia_red;
+}
+
+// Defination of toSepiaGreen(); function
+
+float toSepiaGreen(int red, int green, int blue)
+{
+
+    float sepia_green = (0.349 * red) + (0.686 * green) + (0.168 * blue);
+
+    return sepia_green;
+}
+
