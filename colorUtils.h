@@ -12,3 +12,11 @@ int max(int x, int y, int z)
     m = m > z ? m : z;
     return m;
 }
+
+int toGrayScaleAverage(int r, int g, int b)
+{
+    // TODO: test this, it may be wrong!
+    return (r + g + b) / 3;
+}
+
+// Defination of min(); function
